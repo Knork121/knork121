@@ -9,13 +9,6 @@
   color: black;
 }
 
-/* html {
-  scroll-behavior: smooth;
-
-  top: 5px;
-} */
-
-
 a {
   text-decoration: none;
 }
@@ -333,4 +326,8 @@ h3 {
   background-color: aqua;
   color: rgb(0, 0, 0);
   box-shadow: 0 0 20px aqua;
+}
+
+.anim{
+  animation: slideLeft 5s ease forwards;
 }
