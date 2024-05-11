@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a tabindex="-1" href="#" class="logo">L3fty portfolio</a>
+      <nav class="navbar">
+        <a href="#home" class="active" style="--i: 1"> Home </a>
+        <a href="#about" style="--i: 2"> About </a>
+        <a href="#skills" style="--i: 3"> Skills </a>
+        <a href="#portfolio" style="--i: 4"> Portfolio </a>
+      </nav>
+    </header>
+    <div class="container">
+      <section id="home" class="home">
+        <div class="home-content">
+          <h3>Hi, я</h3>
+          <h1>Арсений Головин</h1>
+          <h3>И я <span class="multiple-text"></span></h3>
+          <p>Учил html, css, js. Делал тг ботов. Сейчас учу Java разработку</p>
+          <div class="my-links">
+            <a target="_blank" href="https://t.me/Js_rab" style="--i: 7"
+              ><i class="fa-brands fa-telegram"></i
+            ></a>
+            <a target="_blank" href="https://vk.com/id431554324 " style="--i: 8"
+              ><i class="fa-brands fa-vk"></i
+            ></a>
+            <a target="_blank" href="https://github.com/Knork121" style="--i: 9"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="wrapper-img">
+          <img src="images/gojo.jpg" width="300px" height="300px" alt="" />
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <h3>Мои умения</h3>
+        <ul>
+          <li><span>Чертовски спать</span></li>
+          <li><span>Получать 2</span></li>
+          <li><span>Межвселенски ничего не делать</span></li>
+          <li><span>Сидеть за ноутом</span></li>
+        </ul>
+      </section>
+      <section style="margin-bottom: 160px" id="about" class="about">
+        <h3>Образование</h3>
+        <p style="margin-bottom: 100px; text-align: center">
+          Учился в МБОУ Тургеневская СОШ
+        </p>
+        <h3>Опыт работы</h3>
+        <ul style="display: flex; justify-content: center; align-items: center">
+          <li>Средне работал в перчатках</li>
+          <li>Мощно работал голыми руками</li>
+          <li>Слабо отдыхал с лопатой</li>
+        </ul>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <h3 style="padding-bottom: 22px">Портфолио</h3>
+        <ul
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+          "
+        >
+          <li style="font-size: 22px; color: aliceblue">
+            <a
+              target="_blank"
+              style="color: aliceblue"
+              href="https://knork121.github.io/VerySimple-alculator/"
+              ><span>VerySimple-Calculator</span>
+              <!-- <img src="image.png"  alt="" /> -->
+              <img src="images/calc.png" width="150" alt="" />
+            </a>
+          </li>
+          <li style="font-size: 22px">
+            <a
+              target="_blank"
+              style="color: aliceblue"
+              href="https://knork121.github.io/Todolist/"
+              ><span>Todolist</span>
+              <img src="images/todolist.png" width="200" alt="" />
+            </a>
+          </li>
+          <li style="font-size: 22px">
+            <a
+              style="color: aliceblue"
+              target="_blank"
+              href="https://knork121.github.io/board/"
+            >
+              <span>hoverBoard</span>
+              <img src="images/hover.png" width="160" alt="" />
+            </a>
+          </li>
+        </ul>
+      </section>
+      <footer style="background-color: rgba(0, 0, 0, 0.137)"></footer>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </body>
+</html>
