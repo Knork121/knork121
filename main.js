@@ -26,13 +26,6 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// document.querySelectorAll("header .navbar a").forEach((el) =>
-//   el.scrollIntoView({
-//     block: "center",
-//     behavior: "smooth",
-//   })
-// );
-
 document.querySelectorAll("header .navbar a").forEach((el) => {
   el.addEventListener("click", (event) => {
     event.preventDefault();
